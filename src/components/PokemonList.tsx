@@ -18,13 +18,13 @@ export default function PokemonList() {
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-6">
-      <h1 className="text-4xl font-extrabold text-red-600 mb-6 text-center relative">
+      {/* <h1 className="text-4xl font-extrabold text-red-600 mb-6 text-center relative">
         Pokedéx
         <span className="absolute left-1/2 -bottom-2 w-20 h-1 bg-gradient-to-r from-red-500 to-yellow-400 transform -translate-x-1/2 rounded"></span>
-      </h1>
+      </h1> */}
 
       {/* Search Bar */}
-      <div className="flex justify-center mb-6">
+      {/* <div className="flex justify-center mb-6">
         <input
           type="text"
           placeholder="Search Pokémon..."
@@ -32,7 +32,7 @@ export default function PokemonList() {
           onChange={(e) => setSearchTerm(e.target.value)}
           className="w-full max-w-md px-4 py-2 border border-gray-300 rounded-xl shadow-sm focus:ring-2 focus:ring-red-400 focus:outline-none"
         />
-      </div>
+      </div> */}
 
       {/* Grid List */}
       {filteredList.length > 0 ? (
