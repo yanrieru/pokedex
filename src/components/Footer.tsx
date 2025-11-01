@@ -1,4 +1,4 @@
-import { FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
+// import { FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -40,7 +40,7 @@ export default function Footer() {
 
         {/* Space ekstra untuk extension GitHub Pet */}
         <div className="mt-3 text-xs text-white/70">
-          <em>Coming soon: GitHub Pet 🐾</em>
+          {/* <em>Coming soon: GitHub Pet 🐾</em> */}
         </div>
       </div>
     </footer>
